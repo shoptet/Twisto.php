@@ -43,7 +43,12 @@ class OrderItem {
      * @var bool
      */
     public $is_payment;
-    
+
+    /**
+     * @var bool
+     */
+    public $is_discount;
+
     /**
      * @var array
      */
