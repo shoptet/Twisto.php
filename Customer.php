@@ -45,7 +45,7 @@ class Customer {
      */
     public function serialize() {
         $data = array(
-            'email' => trim(strtolower($this->email))
+            'email' => trim(strtolower((string) $this->email))
         );
 
         if ($this->name !== null)
