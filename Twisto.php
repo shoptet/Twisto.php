@@ -30,7 +30,7 @@ class Twisto {
     /**
      * @param null|string $public_key
      */
-    public function Twisto($public_key = null) {
+    public function __construct($public_key = null) {
         $this->public_key = $public_key;
     }
 
